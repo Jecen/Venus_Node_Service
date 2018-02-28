@@ -17,10 +17,10 @@ const apiHandler = async (ctx: any, next: any) => {
   method === 'OPTIONS' && ctx.set({
     'Access-Control-Allow-Methods': 'POST, GET, DELETE, PUT, OPTIONS'
   })
-  
+
   switch (params.what) {
     default:
-      response = { error: `no such ${params.what} type api !` }
+      response = { error: `no such ${params.what}/${params.type} type api !` }
       break;
   }
 

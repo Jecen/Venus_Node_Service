@@ -4,7 +4,7 @@
   "description": "Venus Service",
   "main": "/src/app.ts",
   "scripts": {
-    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/app.ts",
+    "watch-server": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
