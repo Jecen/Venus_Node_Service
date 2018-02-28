@@ -1,0 +1,31 @@
+{
+  "name": "venus_node_service",
+  "version": "1.0.0",
+  "description": "Venus Service",
+  "main": "/src/app.ts",
+  "scripts": {
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jecen/Venus_Node_Service.git"
+  },
+  "author": "Jacen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jecen/Venus_Node_Service/issues"
+  },
+  "homepage": "https://github.com/Jecen/Venus_Node_Service#readme",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.44",
+    "@types/koa-router": "^7.0.27",
+    "nodemon": "^1.17.1",
+    "ts-node": "^5.0.0",
+    "typescript": "^2.7.2"
+  }
+}
